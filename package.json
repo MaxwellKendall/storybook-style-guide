@@ -1,0 +1,24 @@
+{
+  "name": "usaspendingstyleguide",
+  "version": "1.0.0",
+  "description": "style guide for usaspending.vog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "storybook": "^1.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.0.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/addons": "^5.0.0",
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5"
+  }
+}
